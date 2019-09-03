@@ -5,11 +5,13 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=udacitymicroservice
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login --username adeelbarki
+docker tag udacitymicroservice adeelbarki/udacitymicroservice:latest
 
 # Step 3:
-# Push image to a docker repository
+docker push adeelbarki/udacitymicroservice:latest
