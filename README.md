@@ -32,8 +32,8 @@ Make sure to `$ cd project-ml-microservice-kubernetes` in terminal to access all
 
 * To install Hadolint use following command depending on the choice of OS:
 
-For MAC: `brew install hadolint`
-For Windows: `scoop install hadolint` (Need to install scoop before using this command)
+    * For MAC: `brew install hadolint`
+    * For Windows: `scoop install hadolint` (Need to install scoop before using this command)
 
 Dockers, virtual box and minikube must be installed in order to run application. 
 
@@ -65,11 +65,12 @@ Script files are provided with the code with the extension '.sh'.
 
 ## License
 
-Project udagram is a part of Udacity DevOps Engineer Nano Degree Program.   
+This Project is a part of Udacity DevOps Engineer Nano Degree Program.   
 
 ## Author
 
 * Adeel Ahmed Khan (Adeel Barki) <br />
-  __ _Full Stack Web Developer_ <br />
+  __ _DevOps Engineer_ <br />
+  _Full Stack Web Developer_ <br />
   _Front End Web Developer_ <br />
   _React Web Developer_ __ <br />
