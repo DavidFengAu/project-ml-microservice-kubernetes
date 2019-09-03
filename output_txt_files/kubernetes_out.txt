@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+<log output from Kubernetes-mediated prediction>
+
+Port: 30417
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}

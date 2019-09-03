@@ -1,0 +1,14 @@
+<Output From the kubernetes>
+
+|-----------|---------------------|----------------------------|
+| NAMESPACE |        NAME         |            URL             |
+|-----------|---------------------|----------------------------|
+| default   | udacitymicroservice | http://192.168.43.10:30417 |
+|-----------|---------------------|----------------------------|
+* Opening kubernetes service  default/udacitymicroservice in default browser...
+
+
+<Using kubectl get pods command gives output>
+
+NAME                                   READY   STATUS    RESTARTS   AGE
+udacitymicroservice-59bf4d5ffd-b29bn   1/1     Running   0          42m
