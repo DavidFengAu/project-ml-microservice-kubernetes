@@ -8,7 +8,7 @@ dockerpath=udacitymicroservice
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run udacitymicroservice --image=adeelbarki/udacitymicroservice:latest --port=80
+kubectl run $dockerpath --image=adeelbarki/udacitymicroservice:latest --port=80
 
 
 # Step 3:

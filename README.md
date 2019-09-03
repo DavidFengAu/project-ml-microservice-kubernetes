@@ -61,7 +61,17 @@ Script files are provided with the code with the extension '.sh'.
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
+    * While the server is listening on Port= 8000, open another terminal and in the same folder run file
+        `./make_prediction.sh`
+    * A prediction can be seen in terminal in case of succesfull execuation.
+    * In the listening terminal, you can see a status 200 -.
 3. Run in Kubernetes:  `./run_kubernetes.sh`
+    * In terminal you can see an IP address and port number. Copy that address and edit make_prediction_2.sh file with the correct port and address in line 3 and 28.
+    * open another terminal and in the same folder run file
+        `./make_prediction_2.sh`
+    * In the listening terminal, you can see a successfull prediction
+4. There is a folder named '.circleci' that includes a config.yml file. In case if you have plan to push the repo to github. Just add the repo in circleci account and look at the final tests if they pass or fail. 
+5. You can see a badge in the top in README file that show `PASSED` in green color to confirm the successfull execution.
 
 ## License
 
